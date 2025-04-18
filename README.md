@@ -1,51 +1,21 @@
-# Getting Started with Create React App
+# Pokémon Project - TypeScript
 
-This project was bootstrapped with
+This project is a web-based application that lets users interact with a Pokémon database. It allows users to search for Pokémon, view detailed information about each Pokémon, and simulate Pokémon battles. This project was built using **TypeScript**, **React**, and **Node.js** for the backend.
 
- [Typescript](https://www.tutorialsteacher.com/typescript).
+## Features
+- Search for Pokémon by name, type, or abilities.
+- View detailed information about each Pokémon including stats, abilities, and evolutions.
+- Simulate Pokémon battles between different Pokémon teams.
+- User authentication and save favorite Pokémon teams.
 
+## Technologies Used
+- **TypeScript** for type safety and better code maintainability.
+- **React** for the frontend UI.
+- **Node.js** with **Express** for the backend API.
+- **MongoDB** for storing Pokémon data.
 
- [Typescript Playgound](https://www.typescriptlang.org/play).
-### yarn
+## Installation
 
-> [Download](https://yarnpkg.com/en/docs/install)
-
-### VS Code
-
-> [Download](https://code.visualstudio.com/download)
-
-# Install Node.js
-
-
-### download NVM
-
-
-> for [Windows](https://github.com/coreybutler/nvm-windows/releases)
-
-> for [macOS/Linux](https://github.com/nvm-sh/nvm#install--update-script)
-
+1. Clone the repository:
 ```bash
-install with curl
- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
- source ~/.bashrc
- //check version nodeJS
-     nvm list-remote
-
- 
-```
-### Install Node.js
-```
-$ nvm install 16
-```
-or
-```
-$ nvm install stable
-
-```
-### use node
-```
-$ nvm use 16
-```
-
-
-
+git clone https://github.com/username/Pokemon-Project-TypeScript.git
